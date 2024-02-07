@@ -1,0 +1,7 @@
+[project]
+name = "generate-qr-page"
+version = "0.0.1"
+
+[project.scripts]
+generate-qr-pdf = "generate_qr_page:main_generate_qr_pdf"
+generate-qr-svg = "generate_qr_page:main_generate_qr_svg"
